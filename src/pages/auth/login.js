@@ -25,8 +25,8 @@ const Page = () => {
   const [method, setMethod] = useState('email');
   const formik = useFormik({
     initialValues: {
-      email: 'demo@devias.io',
-      password: 'Password123!',
+      email: 'admin@amaka.com',
+      password: 'admin',
       submit: null
     },
     validationSchema: Yup.object({
@@ -171,7 +171,7 @@ const Page = () => {
                   sx={{ mt: 3 }}
                 >
                   <div>
-                    You can use <b>demo@devias.io</b> and password <b>Password123!</b>
+                    You can use <b>admin@amaka.com</b> and password <b>admin</b>
                   </div>
                 </Alert>
               </form>
